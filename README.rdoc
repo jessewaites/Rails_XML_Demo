@@ -12,6 +12,7 @@ Cheers.
 
 Sample output:
 
+```xml
 <books>
 <book>
 <name>The Goldfinch</name>
@@ -81,3 +82,4 @@ Sample output:
 </reviews>
 </book>
 </books>
+```
