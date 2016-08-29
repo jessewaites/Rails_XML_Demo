@@ -1,0 +1,81 @@
+== README
+
+Dead simple XML / Rails 4 Demo.
+
+Clone the repo, run rake :db create && rake db:migrate && rake db:seed
+
+Then head over to http://localhost:3000/books.xml and view your XML.
+
+Cheers.
+
+Sample output:
+
+<books>
+<book>
+<name>The Goldfinch</name>
+<author>Donna Tartt</author>
+<price>$29.95</price>
+<active>true</active>
+<reviews>
+<review>
+<user>Jenn</user>
+<rating>3</rating>
+<body>Excellent Book!</body>
+</review>
+<review>
+<user>Joe</user>
+<rating>4</rating>
+<body>Boring!</body>
+</review>
+</reviews>
+</book>
+<book>
+<name>Humans of New York</name>
+<author>Brandon Stanton</author>
+<price>$19.95</price>
+<active>true</active>
+<reviews>
+<review>
+<user>Rick</user>
+<rating>5</rating>
+<body>Amazing.</body>
+</review>
+<review>
+<user>Earl</user>
+<rating>5</rating>
+<body>I Love it!</body>
+</review>
+</reviews>
+</book>
+<book>
+<name>Thank You for Your Service</name>
+<author>David Finkel</author>
+<price>$18.95</price>
+<active>true</active>
+<reviews>
+<review>
+<user>Tina</user>
+<rating>4</rating>
+<body>A must read!</body>
+</review>
+</reviews>
+</book>
+<book>
+<name>The Night Guest: A Novel</name>
+<author>Fiona McFarlane</author>
+<price>$16.95</price>
+<active>true</active>
+<reviews>
+<review>
+<user>Charlie</user>
+<rating>1</rating>
+<body>I recommend everyone buy this!</body>
+</review>
+<review>
+<user>Mike</user>
+<rating>4</rating>
+<body>Wow. Just. Wow.</body>
+</review>
+</reviews>
+</book>
+</books>
