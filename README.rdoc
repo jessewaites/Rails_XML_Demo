@@ -12,7 +12,6 @@ Cheers.
 
 Sample output:
 
-```xml
 
 <books>
 <book>
@@ -83,5 +82,3 @@ Sample output:
 </reviews>
 </book>
 </books>
-
-```
