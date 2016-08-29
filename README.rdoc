@@ -13,73 +13,79 @@ Cheers.
 Sample output:
 
 ```xml
-<books>
-<book>
-<name>The Goldfinch</name>
-<author>Donna Tartt</author>
-<price>$29.95</price>
-<active>true</active>
-<reviews>
-<review>
-<user>Jenn</user>
-<rating>3</rating>
-<body>Excellent Book!</body>
-</review>
-<review>
-<user>Joe</user>
-<rating>4</rating>
-<body>Boring!</body>
-</review>
-</reviews>
-</book>
-<book>
-<name>Humans of New York</name>
-<author>Brandon Stanton</author>
-<price>$19.95</price>
-<active>true</active>
-<reviews>
-<review>
-<user>Rick</user>
-<rating>5</rating>
-<body>Amazing.</body>
-</review>
-<review>
-<user>Earl</user>
-<rating>5</rating>
-<body>I Love it!</body>
-</review>
-</reviews>
-</book>
-<book>
-<name>Thank You for Your Service</name>
-<author>David Finkel</author>
-<price>$18.95</price>
-<active>true</active>
-<reviews>
-<review>
-<user>Tina</user>
-<rating>4</rating>
-<body>A must read!</body>
-</review>
-</reviews>
-</book>
-<book>
-<name>The Night Guest: A Novel</name>
-<author>Fiona McFarlane</author>
-<price>$16.95</price>
-<active>true</active>
-<reviews>
-<review>
-<user>Charlie</user>
-<rating>1</rating>
-<body>I recommend everyone buy this!</body>
-</review>
-<review>
-<user>Mike</user>
-<rating>4</rating>
-<body>Wow. Just. Wow.</body>
-</review>
-</reviews>
-</book>
-</books>
+&lt;books&gt;
+&lt;book&gt;
+&lt;name&gt;The Goldfinch&lt;/name&gt;
+&lt;author&gt;Donna Tartt&lt;/author&gt;
+&lt;price&gt;$29.95&lt;/price&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;reviews&gt;
+&lt;review&gt;
+&lt;user&gt;Jenn&lt;/user&gt;
+&lt;rating&gt;3&lt;/rating&gt;
+&lt;body&gt;Excellent Book!&lt;/body&gt;
+&lt;/review&gt;
+&lt;review&gt;
+&lt;user&gt;Joe&lt;/user&gt;
+&lt;rating&gt;4&lt;/rating&gt;
+&lt;body&gt;Boring!&lt;/body&gt;
+&lt;/review&gt;
+&lt;/reviews&gt;
+&lt;/book&gt;
+&lt;book&gt;
+&lt;name&gt;Humans of New York&lt;/name&gt;
+&lt;author&gt;Brandon Stanton&lt;/author&gt;
+&lt;price&gt;$19.95&lt;/price&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;reviews&gt;
+&lt;review&gt;
+&lt;user&gt;Rick&lt;/user&gt;
+&lt;rating&gt;5&lt;/rating&gt;
+&lt;body&gt;Amazing.&lt;/body&gt;
+&lt;/review&gt;
+&lt;review&gt;
+&lt;user&gt;Earl&lt;/user&gt;
+&lt;rating&gt;5&lt;/rating&gt;
+&lt;body&gt;I Love it!&lt;/body&gt;
+&lt;/review&gt;
+&lt;/reviews&gt;
+&lt;/book&gt;
+&lt;book&gt;
+&lt;name&gt;Thank You for Your Service&lt;/name&gt;
+&lt;author&gt;David Finkel&lt;/author&gt;
+&lt;price&gt;$18.95&lt;/price&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;reviews&gt;
+&lt;review&gt;
+&lt;user&gt;Tina&lt;/user&gt;
+&lt;rating&gt;4&lt;/rating&gt;
+&lt;body&gt;A must read!&lt;/body&gt;
+&lt;/review&gt;
+&lt;/reviews&gt;
+&lt;/book&gt;
+&lt;book&gt;
+&lt;name&gt;The Night Guest: A Novel&lt;/name&gt;
+&lt;author&gt;Fiona McFarlane&lt;/author&gt;
+&lt;price&gt;$16.95&lt;/price&gt;
+&lt;active&gt;true&lt;/active&gt;
+&lt;reviews&gt;
+&lt;review&gt;
+&lt;user&gt;Charlie&lt;/user&gt;
+&lt;rating&gt;1&lt;/rating&gt;
+&lt;body&gt;I recommend everyone buy this!&lt;/body&gt;
+&lt;/review&gt;
+&lt;review&gt;
+&lt;user&gt;Mike&lt;/user&gt;
+&lt;rating&gt;4&lt;/rating&gt;
+&lt;body&gt;Wow. Just. Wow.&lt;/body&gt;
+&lt;/review&gt;
+&lt;/reviews&gt;
+&lt;/book&gt;
+&lt;/books&gt;
+```
+
+```xml
+<myxml>
+   <someElement />
+</myxml>
 ```
