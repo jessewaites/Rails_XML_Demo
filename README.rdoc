@@ -2,9 +2,11 @@
 
 Dead simple XML / Rails 4 Demo.
 
-Clone the repo, run rake :db create && rake db:migrate && rake db:seed
+Clone the repo, run:
 
-Then head over to http://localhost:3000/books.xml and view your XML.
+rake :db create && rake db:migrate && rake db:seed
+
+Then start up your rails server head over to http://localhost:3000/books.xml and view your XML.
 
 Cheers.
 
